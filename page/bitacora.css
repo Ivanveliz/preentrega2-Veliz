@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jacques+Francois+Shadow&family=Londrina+Shadow&family=Noto+Sans+Mono&family=Oswald:wght@200;400&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* valores para el la barra de navegación */
+#logo{
+    width: 250px;
+    padding: 5px;
+    padding-top: 10px;
+}
+.barra{
+        
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+.barra ul li{
+    list-style: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-align: center;
+    transition: all 1s;
+}
+.barra a{
+    text-decoration: none;
+    color: black;   
+}
+
+.barra ul li:hover{
+    text-shadow: 0 0 5px #63968c;
+    transform: scale(1.2);
+    
+}
+
+.grid-contenedor{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 25% 35% 40%;
+    justify-content:space-around;
+}
+
+
+
+
+.item1{
+    display: flex;
+    justify-content: center;
+}
+
+/* estilos para el texto y titulo */
+h1{
+    margin-left: 40px;
+    padding: 10px;
+    font-family: 'Anton', sans-serif;
+    color: #63968c;
+    font-size: 40px;
+    margin-top: 20px;
+       
+}
+span{
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: -10px;
+
+}
+
+/* foto principal */
+.item3{
+
+    background-image: url(../Img/n1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+/*  */
+.flex, .flex1{
+    
+    margin-top: 20px;
+     height: 400px;
+     width: auto;
+     display: flex;
+     justify-content: space-evenly;
+    flex-flow: wrap;
+    
+ 
+ }
+
+ .foto{
+     border: 2px solid black;
+     height: auto;
+     width: 400px;
+     padding: 30px;
+     border-radius: 10px;
+     transition: all 1s;
+
+ }
+ .foto:hover{
+    transform: scale(1.05);
+    
+ }
+
+.flex p, .flex1 p{
+   background-color: rgba(240, 248, 255, 0.50);
+   width: 500px;
+   height: auto;
+   text-align: center;
+   border-radius: 10px;
+   margin-bottom: -20px;
+}
+
+.flex1 p:hover{
+    background-color: aliceblue;
+}
+
+.flex p:hover{
+    background-color: aliceblue;
+}
+
+
+
+ .foto1{
+    background-image: url(../Img/b1\ \(2\).jpg);
+    background-position:right;
+    
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+   
+   
+    
+   
+ }
+ .foto2{
+    background-image: url(../Img/b2.jpg);
+    background-position:right;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+ }
+ .foto3{
+    background-image: url(../Img/b1\ \(2\).jpg);
+    background-position:right;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+ }
+ 
+ .foto4{
+    background-image: url(../Img/b4.jpg);
+    background-position:right;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+ }
+ .foto5{
+    background-image: url(../Img/b5.jpg);
+    background-position:right;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+ }
+  .foto6{
+    background-image: url(../Img/b6.jpg);
+    background-position:right;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+ }
+
+ /* inicia estilos de footer */
+.pie{
+    margin-top: 15px;
+    height: 60px;
+    display: flex;
+    background-color: #63968c;
+    font-family: 'Roboto', sans-serif;
+     padding: 10px;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.pie .redes{
+    font-size: 30px;
+    letter-spacing: 6px;
+   
+}
+
+.redes a{
+    text-decoration: none;
+    color: #e2dfdb;
+}
+.redes a:hover{
+    text-shadow: 0 0 5px #e2dfdb;
+    
+}
+
+
+
+
+ 
