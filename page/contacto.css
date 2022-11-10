@@ -12,15 +12,12 @@
     width: 25%;
     justify-content: center;
     text-align: center;
-   
-
 }
 
 #logo {
     width: 250px;
     padding: 5px;
     padding-top: 10px;
-  
 }
 
 .barra {
@@ -30,15 +27,9 @@
     font-weight: bolder;
     padding: 10px;
     text-transform: uppercase;
-   
-  
-  
-
-
 }
 
 .barra ul li {
-
     list-style: none;
     font-size: 25px;
     letter-spacing: 1px;
@@ -46,23 +37,17 @@
     transition: all 1s;
     width: 200px;
     height: auto;
-    
 }
 
 .barra a {
     text-decoration: none;
     color: black;
     text-align: center ;
-  
-    
-
-
 }
 
 .barra ul li:hover {
     text-shadow: 0 0 5px #63968c;
     transform: scale(1.2);
-
 }
 
 /* estilos para el texto y titulo */
@@ -71,7 +56,6 @@ p {
     padding: 5px;
     text-align: justify;
     font-size: 20px;
-
 }
 
 .texto {
@@ -104,7 +88,6 @@ p {
 .flex {
     display: flex;
     justify-content: space-around;
-
 }
 
 form {
@@ -128,7 +111,6 @@ form {
 .pie .redes {
     font-size: 30px;
     letter-spacing: 6px;
-
 }
 
 .redes a {
