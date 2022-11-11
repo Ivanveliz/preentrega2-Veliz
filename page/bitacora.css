@@ -356,12 +356,12 @@ p {
 }
 
 @media screen and (min-width:820px)and (max-width:1185px) {
-    
-    .item3{
+
+    .item3 {
         background-position: bottom;
     }
-    
-    
+
+
     .flex,
     .flex1 {
 
@@ -383,7 +383,8 @@ p {
     }
 }
 
-@media screen and (min-width:1280px){
+@media screen and (min-width:1280px) {
+
     .flex,
     .flex1 {
 
@@ -396,18 +397,17 @@ p {
         gap: 15px;
 
     }
-    
+
     .foto {
 
         height: 525px;
         width: auto;
-     
+
     }
 
-    .item3{
+    .item3 {
         height: 450px;
         background-position: top;
     }
 
 }
-
